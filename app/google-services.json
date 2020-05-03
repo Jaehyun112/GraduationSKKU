@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "996962053516",
+    "firebase_url": "https://muzzlepattern.firebaseio.com",
+    "project_id": "muzzlepattern",
+    "storage_bucket": "muzzlepattern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996962053516:android:886f3de4a3b1720806faa9",
+        "android_client_info": {
+          "package_name": "com.jaehyun.skkugraduation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996962053516-5orjusut92ip09j6ppcd4vp0n9g43oo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoXwCCSw_tbQ10jHZ3P-4d2NKuTVGheYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996962053516-5orjusut92ip09j6ppcd4vp0n9g43oo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996962053516:android:37b5a89cd2a75d2206faa9",
+        "android_client_info": {
+          "package_name": "org.tensorflow.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996962053516-5orjusut92ip09j6ppcd4vp0n9g43oo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoXwCCSw_tbQ10jHZ3P-4d2NKuTVGheYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996962053516-5orjusut92ip09j6ppcd4vp0n9g43oo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_1"
+    tools:context=".SplashActivity">
+    
+    <ImageView
+        android:id="@+id/main_logo_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/noseid_logo"></ImageView>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_logo_img"
+        android:layout_marginTop="10dp"
+        android:text="Classification with Nose ID"
+        android:textColor="#ffffff"
+        android:textSize="14dp"></TextView>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/main_download_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Model DownLoading..."
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffeef"
+        android:textSize="16dp"
+        android:layout_below="@+id/main_logo_img"
+        ></TextView>
+    <Button
+        android:id="@+id/main_start_button"
+        android:visibility="visible"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="시작하기"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        ></Button>
+</RelativeLayout>
